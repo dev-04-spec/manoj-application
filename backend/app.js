@@ -11,7 +11,7 @@ const app = express();
 mongoose
   .connect(
     //kRlsYTAaHenY7hYQ
-    "mongodb+srv://manoj-app:"+process.env.MONGO_ATLAS_PW+"@cluster0.qvtpw.mongodb.net/manoj-application?retryWrites=true&w=majority"
+   "mongodb+srv://manoj-app:"+process.env.MONGO_ATLAS_PW+"@cluster0.qvtpw.mongodb.net/manoj-application?retryWrites=true&w=majority"
   )
   .then(() => {
     console.log("Connected to database!");
